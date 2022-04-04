@@ -1,0 +1,17 @@
+{
+  "name": "jROQuest formatter",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Ragnarok Online Japanese (jRO) のクエスト連動のフィルタリングおよび表形式出力のサポートを行ないます。",
+  "content_scripts": [{
+    "matches": ["https://rowebtool.gungho.jp/quest/*"],
+    "js": [
+      "js/jquery-3.6.0.min.js",
+      "js/jrowebtool-common.js",
+      "js/jroquest.js"
+    ],
+    "css": [
+      "css/style.css"
+    ]
+  }]
+}
