@@ -13,7 +13,7 @@ Ragnarok Online Japanese (jRO) のWebツール類に関するChrome拡張機能�
 
 ### jROQuest formatter
 
-クエスト連動(https://rowebtool.gungho.jp/quest)において、以下の機能を追加します。
+クエスト連動 https://rowebtool.gungho.jp/quest において、以下の機能を追加します。
 
 - クエストステータスにクリックイベントを追加。
   - 「完了」をクリックすると、完了したクエスト一覧を表示。
