@@ -1,6 +1,6 @@
-# Ragnarok Online Japanese (jRO) Chrome Extensions
+# Ragnarok Online Japanese (jRO) unofficial Chrome Extensions
 
-Ragnarok Online Japanese (jRO) のWebツール類に関するChrome拡張機能を公開しています。
+Ragnarok Online Japanese (jRO) のWebツール類に関する非公式のChrome拡張機能を公開しています。
 
 ## 注意事項および免責事項
 
@@ -13,7 +13,7 @@ Ragnarok Online Japanese (jRO) のWebツール類に関するChrome拡張機能�
 
 ### jROQuest formatter
 
-クエスト連動 https://rowebtool.gungho.jp/quest において、以下の機能を追加します。
+jROクエスト連動 https://rowebtool.gungho.jp/quest において、以下の機能を追加します。
 
 - クエストステータスにクリックイベントを追加。
   - 「完了」をクリックすると、完了したクエスト一覧を表示。
@@ -34,7 +34,7 @@ Ragnarok Online Japanese (jRO) のWebツール類に関するChrome拡張機能�
 1. 右上のデベロッパーモードを有効にする
 1. 解凍したフォルダをGoogle Chromeにドラッグ＆ドロップ
   (例: jROQuest formatterの場合はjroquestフォルダ)
-1. Ragnarok Online Japanes (jRO)のトップページからChrome拡張機能に対応するページを開く
+1. Ragnarok Online Japanese (jRO)のトップページからChrome拡張機能に対応するページを開く
 
 ## 権利表記
 
