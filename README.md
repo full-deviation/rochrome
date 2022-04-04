@@ -32,7 +32,8 @@ Download: [jroquest-1.0.zip](https://github.com/full-deviation/rochrome/raw/mast
 1. 使用したいChrome拡張機能のzipをダウンロードし解凍
 1. Google Chrome > ︙ > その他のツール > 拡張機能 を開く
 1. 右上のデベロッパーモードを有効にする
-1. 解凍したフォルダの内容をGoogle Chromeにドラッグ＆ドロップ
+1. 解凍したフォルダをGoogle Chromeにドラッグ＆ドロップ
+  (例: jROQuest formatterの場合はjroquestフォルダ)
 1. Ragnarok Online Japanes (jRO)のログインメニューから「クエスト連動」を開く
 
 ## 権利表記
