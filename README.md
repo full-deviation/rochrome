@@ -25,7 +25,7 @@ Ragnarok Online Japanese (jRO) のWebツール類に関するChrome拡張機能�
   - コピーされるクエスト名および完了状況に職業関連クエストは含まれません。
   - コピーした内容をExcelやGoogle spreadsheetに貼り付けることにより、キャラクター別のクエスト進捗状況をまとめるために使用します。
 
-Download: [jroquest-1.0.zip](https://github.com/full-deviation/rochrome/raw/master/dist/jroquest-1.0.zip)
+ダウンロード: [jroquest-1.0.zip](https://github.com/full-deviation/rochrome/raw/master/dist/jroquest-1.0.zip)
 
 ## 使用方法について
 
@@ -34,7 +34,7 @@ Download: [jroquest-1.0.zip](https://github.com/full-deviation/rochrome/raw/mast
 1. 右上のデベロッパーモードを有効にする
 1. 解凍したフォルダをGoogle Chromeにドラッグ＆ドロップ
   (例: jROQuest formatterの場合はjroquestフォルダ)
-1. Ragnarok Online Japanes (jRO)のログインメニューから「クエスト連動」を開く
+1. Ragnarok Online Japanes (jRO)のトップページからChrome拡張機能に対応するページを開く
 
 ## 権利表記
 
