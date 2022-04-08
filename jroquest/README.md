@@ -27,6 +27,12 @@ Ragnarok Online Japanese (jRO) のクエスト連動 https://rowebtool.gungho.jp
 1. 解凍したjroquestフォルダをGoogle Chromeにドラッグ＆ドロップ
 1. [ラグナロクオンライン公式サイト](http://ragnarokonline.gungho.jp/) でログインを行ない、 [クエスト連動](https://rowebtool.gungho.jp/quest) を開く
 
+## 使用停止について
+
+1. Google Chrome > ︙ > その他のツール > 拡張機能 を開く
+1. jROQuest formatter の枠内にあるトグルボタンで無効にするか、今後使用しない場合は削除を選択する
+  1. 削除を選択した場合、ダウンロードおよび解凍したファイルの削除も行ない、デベロッパーモードを有効にした理由がこのChrome拡張機能のみである場合、デベロッパーモードを無効にする
+
 ## 権利表記
 
 ©Gravity Co., Ltd. & LeeMyoungJin(studio DTDS) All rights reserved.
