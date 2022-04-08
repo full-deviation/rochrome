@@ -11,30 +11,8 @@ Ragnarok Online Japanese (jRO) のWebツール類に関する非公式のChrome�
 
 ## Chrome拡張機能一覧
 
-### jROQuest formatter
-
-jROクエスト連動 https://rowebtool.gungho.jp/quest において、以下の機能を追加します。
-
-- クエストステータスにクリックイベントを追加。
-  - 「完了」をクリックすると、完了したクエスト一覧を表示。
-  - 「未完了」をクリックすると、未完了のクエスト一覧を表示。
-  - 「すべて」をクリックすると、完了/未完了が混在するクエスト一覧を表示。
-- コピーボタンを追加
-  - 「クエスト名の一覧をコピー」をクリックすると、クリップボードにクエスト名の一覧をコピー。
-  - 「完了状況の一覧をコピー」をクリックすると、クリップボードにキャラ名と完了であれば「○」、未完了であれば「×」を記載した一覧をコピー。
-  - コピーされるクエスト名および完了状況に職業関連クエストは含まれません。
-  - コピーした内容をExcelやGoogle spreadsheetに貼り付けることにより、キャラクター別のクエスト進捗状況をまとめるために使用します。
-
-ダウンロード: [jroquest-1.0.zip](https://github.com/full-deviation/rochrome/raw/master/dist/jroquest-1.0.zip)
-
-## 使用方法について
-
-1. 使用したいChrome拡張機能のzipをダウンロードし解凍
-1. Google Chrome > ︙ > その他のツール > 拡張機能 を開く
-1. 右上のデベロッパーモードを有効にする
-1. 解凍したフォルダをGoogle Chromeにドラッグ＆ドロップ
-  (例: jROQuest formatterの場合はjroquestフォルダ)
-1. Ragnarok Online Japanese (jRO)のトップページからChrome拡張機能に対応するページを開く
+- [jROQuest formatter](https://github.com/full-deviation/rochrome/tree/master/jroquest): 公式のクエスト連動を完了/未完了でフィルタリングおよび完了状況をまとめるための支援機能を追加します。
+- [jROratorio-collapse](https://github.com/full-deviation/rochrome/tree/master/jroratorio-collapse): 「ROラトリオ」避難所の「計算する」ボタンまでにある表示項目をまとめて折り畳む機能を追加し、往復距離を改善します。
 
 ## 権利表記
 
