@@ -1,0 +1,16 @@
+{
+  "name": "jROratorio-collapse",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "「ROラトリオ」避難所の総合計算機(最新)において、いくつかのテーブルをまとめて非表示にすることで計算結果へのアクセスを改善します。",
+  "content_scripts": [{
+    "matches": ["http://roratorio-hinanjo.net/roro/m/calcx.html"],
+    "js": [
+      "js/jquery-3.6.0.min.js",
+      "js/jroratorio-collapse.js"
+    ],
+    "css": [
+      "css/style.css"
+    ]
+  }]
+}
