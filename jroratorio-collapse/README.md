@@ -16,3 +16,9 @@
 1. 右上のデベロッパーモードを有効にする
 1. 解凍したjroratorio-collapseフォルダをGoogle Chromeにドラッグ＆ドロップ
 1. [「ROラトリオ」避難所](http://roratorio-hinanjo.net/roro/index.html) から [総合計算機(最新)」](http://roratorio-hinanjo.net/roro/m/calcx.html) を開く
+
+## 使用停止について
+
+1. Google Chrome > ︙ > その他のツール > 拡張機能 を開く
+1. jROratorio-collapse の枠内にあるトグルボタンで無効にするか、今後使用しない場合は削除を選択する
+  1. 削除を選択した場合、ダウンロードおよび解凍したファイルの削除も行ない、デベロッパーモードを有効にした理由がこのChrome拡張機能のみである場合、デベロッパーモードを無効にする
