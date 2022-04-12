@@ -37,7 +37,7 @@ function analyzePage() {
 
     // 基本情報
     pageInfo.world = $('select[name=world] option:selected').text(); // ワールド
-    pageInfo.character = $('select[name=character] option:selected').text(); // キャラクター
+    pageInfo.character = $('ul.characterSelection>li.choosing>dl>dt>a').text(); // キャラクター
 
     // クエスト一覧(ul.questList)内のクエストliを調査し、{name, cleared}の一覧をまとめて格納
     $('ul.questList').each(function () {
@@ -47,7 +47,7 @@ function analyzePage() {
         questList.children().each(function() {
             quests.push({
                 'name': $(this).text().trim(),
-                'cleared': $(this).hasClass('red')
+                'cleared': !$(this).hasClass('unfinished')
             });
         });
         pageInfo.quests.push(quests);
@@ -80,14 +80,14 @@ function initializeQuestStatus() {
         // 要素の再設定
         $(this).append('クエストステータス：')
                .append('<span name="viewAllQuests">すべて</span>')
-               .append(' <span name="viewClearedQuests" class="red">完了</span>')
-               .append(' <span name="viewNotClearedQuests">未完了</span>');
+               .append('　<span name="viewClearedQuests">完了</span>')
+               .append('　<span name="viewNotClearedQuests" class="unfinished">未完了</span>');
 
         // クエスト一覧のみボタンを付ける
         if (index == commonQuestsIndex) {
-            $(this).append(' <button id="copyQuestNames">クエスト名の一覧をコピー</button>')
-                   .append(' <button id="copyQuestStatus">完了状況の一覧をコピー</button>')
-                   .append(' ※職業関連クエストは含みません');
+            $(this).append('　<button id="copyQuestNames">クエスト名の一覧をコピー</button>')
+                   .append('　<button id="copyQuestStatus">完了状況の一覧をコピー</button>')
+                   .append('　※職業関連クエストは含みません');
         }
     });
 
@@ -155,7 +155,7 @@ function changeQuestStatus(stat) {
 
         questList.empty(); // 一旦空にする
         $.each(quests, function(index2, quest) {
-            questList.append('<li' + (quest.cleared ? ' class="red"' : '') + '>' + quest.name + '</li>');
+            questList.append('<li' + (quest.cleared ? '' : ' class="unfinished"') + '>' + quest.name + '</li>');
         });
     });
 
