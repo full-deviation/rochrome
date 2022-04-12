@@ -21,7 +21,7 @@ Ragnarok Online Japanese (jRO) のクエスト連動 https://rowebtool.gungho.jp
 
 ## 使用方法について
 
-1. [jroquest-1.0.zip](https://github.com/full-deviation/rochrome/raw/master/dist/jroquest-1.0.zip) をダウンロードし解凍
+1. [jroquest-1.1.zip](https://github.com/full-deviation/rochrome/raw/master/dist/jroquest-1.1.zip) をダウンロードし解凍
 1. Google Chrome > ︙ > その他のツール > 拡張機能 を開く
 1. 右上のデベロッパーモードを有効にする
 1. 解凍したjroquestフォルダをGoogle Chromeにドラッグ＆ドロップ
